@@ -1,0 +1,113 @@
+body {
+    background-color: darkgreen;
+}
+
+.hero-body {
+    background-color: darkslategrey
+}
+
+
+
+.img-Dog{
+    width: 80px;
+    background-position: top right;
+
+}
+
+.hero-text{
+    text-align: left;
+    font-size: 15px;
+    color: white;
+}
+
+.hero-text2 {
+    text-align: left;
+    font-size: 15px;
+    color: white;
+
+}
+
+.headerLogo {
+    background-color: aqua;
+    border: 5px solid darkblue;
+    height: 100px;
+    width: 150px;
+    flex: 2 2 auto;
+}
+
+/*2 Second Line */
+.secondLine {
+    height: 160px;
+    padding: 16px;
+    background:  azure;
+    border: 5px solid gold;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box1 {
+    width: 180px;
+    height: 180px;
+    border: 3px solid lightskyblue;
+}
+
+.box2 {
+    width: 180px;
+    height: 180px;
+    border: 3px solid lightskyblue;
+}
+
+.box3{
+    width: 180px;
+    height: 180px;
+    border: 3px solid lightskyblue;
+}
+
+.box4 {
+    width: 180px;
+    height: 180px;
+    border: 3px solid lightskyblue;
+}
+
+/* 3 Quote Box */
+.quoteBox {
+    height: auto;
+    padding: auto;
+    background: lightgrey;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.insideBox {
+    text-align: center;
+}
+
+/* 4 Last Box */
+.lastBox {
+    height: 160px;
+    padding: 120px;
+    background: white;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.insideLastBox {
+    width: 2000px;
+    height: 180px;
+    border: 4px solid darkblue; 
+}
+
+.signUpButton {
+    width: 100px;
+    height: 20;
+    border: 5px solid green;
+    position:relative;
+    bottom: 10px;
+    left: 1030px;
+    
+}
