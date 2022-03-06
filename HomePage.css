@@ -3,35 +3,52 @@ body {
 }
 
 .hero-body {
+    height: 580px;
     background-color: darkslategrey
 }
 
-
-
 .img-Dog{
-    width: 80px;
-    background-position: top right;
+    width: 100px;
+    background-position: top left;
+    margin-left: 200px;
+
+}
+.imgMove {
+    position:absolute;
+    right: 100px;
+    top: 80px;
+    display: inline-flex;
+}
+.imgMove img {
+    margin: auto 5px;
+    float: left;
+    width: 560px;
+    height: 350px;
 
 }
 
 .hero-text{
     text-align: left;
+    margin-left: 200px;
     font-size: 15px;
     color: white;
+    
 }
 
 .hero-text2 {
     text-align: left;
+    margin-left: 200px;
     font-size: 15px;
     color: white;
 
 }
 
 .headerLogo {
+    margin-left: 200px;
     background-color: aqua;
     border: 5px solid darkblue;
-    height: 100px;
-    width: 150px;
+    height: 70px;
+    width: 100px;
     flex: 2 2 auto;
 }
 
