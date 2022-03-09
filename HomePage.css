@@ -54,37 +54,53 @@ body {
 
 /*2 Second Line */
 .secondLine {
-    height: 160px;
-    padding: 16px;
+    height: 580px;
+    padding: 8px;
     background:  azure;
     border: 5px solid gold;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 8px;
+}
+
+
+.boxesMove{
+    position: absolute;
+    display: inline-flex;
+    margin-top: 180px;
 }
 
 .box1 {
     width: 180px;
-    height: 180px;
+    height: 150px;
     border: 3px solid lightskyblue;
+   
 }
 
 .box2 {
     width: 180px;
-    height: 180px;
+    height: 150px;
     border: 3px solid lightskyblue;
+    /* to leave space */
+    margin-left: 30px;
+    
 }
+
 
 .box3{
     width: 180px;
-    height: 180px;
+    height: 150px;
     border: 3px solid lightskyblue;
+     /* to leave space */
+     margin-left: 30px;
 }
 
 .box4 {
     width: 180px;
-    height: 180px;
+    height: 150px;
     border: 3px solid lightskyblue;
+     /* to leave space */
+     margin-left: 30px;
 }
 
 /* 3 Quote Box */
