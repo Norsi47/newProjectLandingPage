@@ -134,13 +134,31 @@ body {
 }
 
 .signUpButton {
-    width: 150px;
-    height: 20;
-    border: 5px solid green;
     position: absolute;
     top: 1700px;
     left: 1030px;
     right: 500px;
     
+
+    
+    /* color of design for sign up button */
+   background-color: aqua;
+
+   border-radius: 15px;
+   /* border around button */
+   border: 5px double;
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+    
+    /* padding : 
+    this is for the spacing of the "sign up" inside the button */
+    padding: 10px 72px;
+    text-align: center;
+   
+    width: 80px;
+
+    margin: 5px 2px;
+   
     
 }
