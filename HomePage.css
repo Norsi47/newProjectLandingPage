@@ -45,11 +45,16 @@ body {
 
 .headerLogo {
     margin-left: 200px;
-    background-color: aqua;
-    border: 5px solid darkblue;
-    height: 70px;
+    background-color: rgb(0, 76, 255);
+    height: 40px;
     width: 100px;
-    flex: 2 2 auto;
+    padding: 2px 40px 30px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    color: white;
+    border-radius: 15px;
+   
 }
 
 /*2 Second Line */
@@ -63,26 +68,33 @@ body {
     gap: 8px;
 }
 
-
 .boxesMove{
     position: absolute;
     display: inline-flex;
     margin-top: 180px;
 }
 
+
 .box1 {
     width: 180px;
     height: 150px;
-    border: 3px solid lightskyblue;
+    border: 5px solid lightskyblue;
+    /* this adds pic into background
+    secon line makes it fit the box */
+    background-image: url(Images/beach.jpg); 
+    background-size: cover;
+
    
 }
 
 .box2 {
     width: 180px;
     height: 150px;
-    border: 3px solid lightskyblue;
+    border: 5px solid lightskyblue;
     /* to leave space between boxes*/
     margin-left: 40px;
+    background-image: url(Images/window.jpg);
+    background-size: cover;
     
 }
 
@@ -90,17 +102,21 @@ body {
 .box3{
     width: 180px;
     height: 150px;
-    border: 3px solid lightskyblue;
+    border: 5px solid lightskyblue;
      /* to leave space */
      margin-left: 40px;
+     background-image: url(Images/blackDog.jpg);
+     background-size:cover;
 }
 
 .box4 {
     width: 180px;
     height: 150px;
-    border: 3px solid lightskyblue;
+    border: 5px solid lightskyblue;
      /* to leave space */
      margin-left: 40px;
+     background-image: url(Images/happyDog.jpg);
+     background-size:cover;
 }
 
 /* 3 Quote Box */
