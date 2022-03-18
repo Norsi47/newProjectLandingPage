@@ -54,7 +54,8 @@ body {
     top: 10px;
     color: white;
     border-radius: 15px;
-   
+    top: 120px;
+    right: 60px;
 }
 
 /*2 Second Line */
@@ -83,6 +84,7 @@ body {
     secon line makes it fit the box */
     background-image: url(Images/beach.jpg); 
     background-size: cover;
+    border-radius: 15px;
 
    
 }
@@ -95,6 +97,7 @@ body {
     margin-left: 40px;
     background-image: url(Images/window.jpg);
     background-size: cover;
+    border-radius: 15px;
     
 }
 
@@ -107,6 +110,7 @@ body {
      margin-left: 40px;
      background-image: url(Images/blackDog.jpg);
      background-size:cover;
+     border-radius: 15px;
 }
 
 .box4 {
@@ -117,6 +121,7 @@ body {
      margin-left: 40px;
      background-image: url(Images/happyDog.jpg);
      background-size:cover;
+     border-radius: 15px;
 }
 
 /* 3 Quote Box */
